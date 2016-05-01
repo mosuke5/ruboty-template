@@ -18,6 +18,7 @@ GEM
     json (1.8.3)
     mem (0.1.5)
     minitest (5.8.1)
+    multi_xml (0.5.5)
     multipart-post (2.0.0)
     rake (10.4.2)
     redis (3.2.1)
@@ -38,6 +39,11 @@ GEM
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
+      ruboty
+    ruboty-ma (0.1.1)
+      faraday
+      faraday_middleware
+      multi_xml
       ruboty
     ruboty-redis (0.0.6)
       redis
@@ -61,8 +67,9 @@ DEPENDENCIES
   ruboty-alias
   ruboty-cron
   ruboty-google_image
+  ruboty-ma
   ruboty-redis
   ruboty-slack
 
 BUNDLED WITH
-   1.10.4
+   1.10.6
